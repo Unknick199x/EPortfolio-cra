@@ -1,10 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
-import FirstWeb from "../assets/images/fweb.png";
-import Table from "../assets/images/tables.png";
-import Nft from "../assets/images/nft.png";
-import Form from "../assets/images/form.png";
-import MiniProject from "../assets/images/mini_project.png";
+import FirstWeb from "../assets/images/fweb.PNG";
+import Table from "../assets/images/tables.PNG";
+import Nft from "../assets/images/nft.PNG";
+import Form from "../assets/images/form.PNG";
+import MiniProject from "../assets/images/mini_project.PNG";
 import Calculator from "../assets/images/calculator.png";
 
 const Portfolio = () => {
