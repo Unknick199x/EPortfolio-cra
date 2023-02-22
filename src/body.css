@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Helios";
+  src: url(/src/assets/font/Helios.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  width: 100%;
+  background-image: url("/src/assets/images/bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  width: 100%;
+  background-image: url("/src/assets/images/bg2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+footer {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Helios";
+  text-shadow: 0 0 20px black;
+}
+
+.breaker {
+  background: linear-gradient(to right, #a21af0, #ff0071);
+  border: none;
+  border-radius: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
