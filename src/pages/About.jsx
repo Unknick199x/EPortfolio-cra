@@ -42,7 +42,7 @@ const About = () => {
         <div className="card-group ">
           <p>
             <button
-              class="btn btn-primary"
+              className="btn btn-primary"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#telephone"
@@ -52,15 +52,15 @@ const About = () => {
               <TelephoneFill /> Phone Number
             </button>
           </p>
-          <div class="collapse" id="telephone">
-            <div class="card card-body">
+          <div className="collapse" id="telephone">
+            <div className="card card-body">
               <p>+63 926 4562 971 </p>
               <p>+63 945 048 2369</p>
             </div>
           </div>
           <p>
             <button
-              class="btn btn-primary"
+              className="btn btn-primary"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#location"
@@ -70,8 +70,8 @@ const About = () => {
               <GeoAltFill /> Address
             </button>
           </p>
-          <div class="collapse" id="location">
-            <div class="card card-body">
+          <div className="collapse" id="location">
+            <div className="card card-body">
               <p>
                 Brgy. Carmen,
                 <br />
@@ -83,7 +83,7 @@ const About = () => {
           </div>
           <p>
             <button
-              class="btn btn-primary"
+              className="btn btn-primary"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#email"
@@ -93,8 +93,8 @@ const About = () => {
               <EnvelopeAtFill /> Email Address
             </button>
           </p>
-          <div class="collapse" id="email">
-            <div class="card card-body">
+          <div className="collapse" id="email">
+            <div className="card card-body">
               <p>
                 nickanthony.escobido@gmail.com <br />
                 iplay.ninjasometimes@gmail.com

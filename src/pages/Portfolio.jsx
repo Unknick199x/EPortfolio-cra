@@ -9,26 +9,26 @@ import Calculator from "../assets/images/calculator.png";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" class="bg2 d-flex mt-5">
-      <div class="container px-4 py-5" id="custom-cards">
-        <h2 id="portfolio" class="pb-2 mt-3 text-white">
+    <section id="portfolio" className="bg2 d-flex mt-5">
+      <div className="container px-4 py-5" id="custom-cards">
+        <h2 id="portfolio" className="pb-2 mt-3 text-white">
           PORFOLIO
         </h2>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="col">
             <a href="#">
-              <div class="card bg-dark">
-                <img src={FirstWeb} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={FirstWeb} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -46,19 +46,19 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div class="col">
+          <div className="col">
             <a href="#">
-              <div class="card bg-dark">
-                <img src={Table} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={Table} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -76,22 +76,22 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div class="col">
+          <div className="col">
             <a
               href="https://unknick199x.github.io/SIMPLE-CARD-UI/"
               target="_blank"
             >
-              <div class="card bg-dark">
-                <img src={Nft} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={Nft} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -104,7 +104,7 @@ const Portfolio = () => {
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-css text-black"
+                        className="bi bi-filetype-css text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -122,19 +122,19 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div class="col">
+          <div className="col">
             <a href="#">
-              <div class="card bg-dark">
-                <img src={Form} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={Form} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -147,7 +147,7 @@ const Portfolio = () => {
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-css text-black"
+                        className="bi bi-filetype-css text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -165,19 +165,19 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div class="col">
+          <div className="col">
             <a href="https://unknick199x.github.io/Explore-Batanes/git">
-              <div class="card bg-dark">
-                <img src={MiniProject} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={MiniProject} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -190,7 +190,7 @@ const Portfolio = () => {
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-css text-black"
+                        className="bi bi-filetype-css text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -203,7 +203,7 @@ const Portfolio = () => {
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-bootstrap text-black"
+                        className="bi bi-bootstrap text-black"
                         viewBox="0 0 16 16"
                       >
                         <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
@@ -219,19 +219,19 @@ const Portfolio = () => {
             </a>
           </div>
 
-          <div class="col">
+          <div className="col">
             <a href="https://unknick199x.github.io/Calculator/" target="_blank">
-              <div class="card bg-dark">
-                <img src={Calculator} class="card-img-top" alt="..." />
+              <div className="card bg-dark">
+                <img src={Calculator} className="card-img-top" alt="..." />
                 <div>
-                  <ul class="d-flex list-unstyled m-2">
-                    <li class="me-auto gap-2">
+                  <ul className="d-flex list-unstyled m-2">
+                    <li className="me-auto gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-html  text-black"
+                        className="bi bi-filetype-html  text-black"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -244,7 +244,7 @@ const Portfolio = () => {
                         width="25"
                         height="25"
                         fill="currentColor"
-                        class="bi bi-filetype-css text-black"
+                        className="bi bi-filetype-css text-black"
                         viewBox="0 0 16 16"
                       >
                         <path

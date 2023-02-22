@@ -37,7 +37,7 @@ const Experience = () => {
               assumenda voluptates animi?
             </p>
           </div>
-          <div class="container text-white">
+          <div className="container text-white">
             <h3 style={{ fontSize: "23px" }}>GRAPHIC ARTIST</h3>
             <h5>2022 - Present</h5>
           </div>

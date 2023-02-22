@@ -5,45 +5,45 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      class="d-flex bg d-flex flex-column w-100 h-100 justify-content-center"
+      className="d-flex bg d-flex flex-column w-100 h-100 justify-content-center"
     >
-      <div class="p-5 contact container">
-        <h1 class="d-flex justify-content-center text-white">CONTACT US</h1>
-        <p class="d-flex justify-content-center text-white pb-3">
+      <div className="p-5 contact container">
+        <h1 className="d-flex justify-content-center text-white">CONTACT US</h1>
+        <p className="d-flex justify-content-center text-white pb-3">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </p>
-        <div class="">
-          <div class="row-lg-9 d-lg-flex gap-3">
-            <div class="col">
+        <div className="">
+          <div className="row-lg-9 d-lg-flex gap-3">
+            <div className="col">
               <input
                 type="text"
-                class="form-control col-md-6 mb-2 "
+                className="form-control col-md-6 mb-2 "
                 placeholder="First name"
                 aria-label="First name"
               />
             </div>
-            <div class="col">
+            <div className="col">
               <input
                 type="email"
-                class="form-control col-md-6 mb-2"
+                className="form-control col-md-6 mb-2"
                 placeholder="Email or Mobile Number"
                 aria-label="Email"
               />
             </div>
-            <div class="col">
+            <div className="col">
               <input
                 type="text"
-                class="form-control col-md-6 mb-2"
+                className="form-control col-md-6 mb-2"
                 placeholder="Last name"
                 aria-label="Last name"
               />
             </div>
           </div>
-          <div class="mb-3">
-            <label for="message" class="form-label"></label>
+          <div className="mb-3">
+            <label type="message" className="form-label"></label>
             <textarea
               type="text"
-              class="form-control"
+              className="form-control"
               placeholder="Messages"
               aria-label="message"
               id="message"
@@ -54,7 +54,7 @@ const Contact = () => {
       </div>
 
       <footer
-        class="d-flex justify-content-center vertical-align-bottom"
+        className="d-flex justify-content-center vertical-align-bottom"
         style={{ height: "50px" }}
       >
         <h5>MINI PROJECT OF NICK ANTHONY ESCOBIDO. ALL RIGHTS RESERVED.</h5>
